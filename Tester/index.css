@@ -7,6 +7,7 @@ body{
 
 #NavBar-container{
     display: flex;
+    justify-content: space-between;
 }
 
 #darkModeButton{
@@ -24,12 +25,13 @@ body{
     text-align: center;
     font-family: "Agency FB";
     color: white;
-    margin-left: 540px;
+    margin-left: 40px;
 }
 
 #Logo{
     height: 100px;
-    width: 100px;
+    width: 150px;
+    border-radius: 15px;
 }
 
 #todo-container{
@@ -76,6 +78,11 @@ body{
     float: right;
 }
 
+button:hover {
+    background-color: #6ab16a;
+    transform: translate(0px, -2px);
+}
+
 #header{
     margin: 5px;
     font-size: 20px;
@@ -86,10 +93,6 @@ h1{
     margin-bottom: 20px;
 }
 
-button:hover {
-    background-color: #6ab16a;
-    transform: translate(0px, -2px);
-}
 
 ul{
     list-style: none;

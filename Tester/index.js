@@ -22,6 +22,7 @@ function switchMode(){
         switchButton.style.backgroundColor="limegreen";
         switchButton.style.borderColor="green";
         switchButton.innerText = "Light Mode";
+        document.body.style.backgroundImage="url(https://wallpapers.com/images/hd/space-aesthetic-black-cosmos-mtzv89otovidg2rp.jpg)";
 
     }
     else {
@@ -30,6 +31,7 @@ function switchMode(){
         switchButton.style.backgroundColor="bisque";
         switchButton.style.borderColor="teal";
         switchButton.innerText = "Dark Mode";
+        document.body.style.backgroundImage="url(https://images.hdqwalls.com/wallpapers/nebula-blue-space-1x.jpg)";
     }
 }
 
